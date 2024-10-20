@@ -1,0 +1,145 @@
+body {
+
+    font-family: var(--font-paragrafo);
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+
+    font-family: var(--font-intestazione);
+
+
+}
+
+/* Sezione HEADER */
+header {
+
+    background-image: url(./media/Hero\ Section.png) ; 
+    height: 100vh;
+
+}
+
+
+ a {
+
+    color: var(--main-color) !important;
+
+}
+/* End Sezione HEADER */
+
+.btn-custom {
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+
+.nav-link:hover {
+border-bottom: 2px solid var(--second-color);
+}
+
+header p, h1 {
+
+    color: var(--main-color);
+
+}
+
+
+/* Modo Furbo per dare una sottolineatura ad un h123456 */
+h2 span {
+
+    border-bottom: 2px solid var(--second-color);
+
+}
+
+/* Sezione CARD DESTINAZIONI */
+.pos-img {
+    top: 320px;
+    left: 30px;
+    color: var(--main-color);
+}
+
+
+.img-card1 {
+
+    background-image: url(./media/card-img1.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-card2 {
+
+    background-image: url(./media/card-img2.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.img-card3 {
+
+    background-image: url(./media/card-img3.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* @media screen and (max-width:1200px) and (min-width:992px) {
+
+
+    .img-card1 {
+
+        height: 700px;
+
+    }
+} */
+
+/* FINE SEZIONE CARD DESTINAZIONI */
+
+
+
+
+
+/* Sezione CARD OFFERTE */
+
+.card {
+
+    width: 23rem;
+    border: none;
+
+}
+
+.card-body {
+
+    background-color: var(--card-color)
+}
+
+.stella {
+
+    color: #ffd43b;
+    margin: 0px 2px;
+
+}
+
+
+.prezzo {
+font-size: 30px;
+color: var(--second-color);
+}
+
+/* Fine Sezione CARD OFFERTE */
+
+.img-blog {
+
+    width: 85%;
+    height: 85%;
+}
+
+.pp {
+
+    background-color: red;
+}
+
+/* Sezione BLOG */
+
