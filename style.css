@@ -20,12 +20,15 @@ header {
 }
 
 
- a {
+header a {
 
     color: var(--main-color) !important;
 
 }
+
+
 /* End Sezione HEADER */
+
 
 .btn-custom {
     background-color: var(--second-color);
@@ -98,9 +101,6 @@ h2 span {
 /* FINE SEZIONE CARD DESTINAZIONI */
 
 
-
-
-
 /* Sezione CARD OFFERTE */
 
 .card {
@@ -112,7 +112,7 @@ h2 span {
 
 .card-body {
 
-    background-color: var(--card-color)
+    background-color: var(--card-color);
 }
 
 .stella {
@@ -130,16 +130,42 @@ color: var(--second-color);
 
 /* Fine Sezione CARD OFFERTE */
 
+/* Sezione BLOG */ 
+
+
 .img-blog {
-
-    width: 85%;
+    width: 100%;
     height: 85%;
+    right: 0px;
 }
 
-.pp {
-
-    background-color: red;
+.text-blog  {
+    word-spacing: 1px;
+    text-decoration: none; 
 }
 
-/* Sezione BLOG */
+/* Fine SEZIONE BLOG */
 
+/* Sezione RECENSIONI CLIENTI */
+
+
+.img-cliente {
+
+    width: 110px;
+    height: 80px;
+   border: 5px solid black;
+    margin-bottom: 100px ;
+    margin-left: 60px;
+    
+}
+
+/* Fine Sezione RECENSIONE CLIENTI */
+
+
+/* Sezione NEWSLETTER */
+
+.news {
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}

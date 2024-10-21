@@ -1,0 +1,38 @@
+Variabili CSS
+
+Sono delle regole/attributi/proprietà css che sono ricorrenti nel nostro template e quindi vanno decise all'inizio.
+
+Ad esempio la palette di colori usata per un template va impostata come VARIABILE CSS (Così da non doverla riscrivere ogni santa volta)
+
+VAnno Imposta con il selettore ROOT (RADICE).
+
+VARIABILI = Locazioni di Memoria che ci permette di riutilizzare detrminate impostazioni CSS.
+
+Le variabili si inseriscono con un doppio trattino "--".
+
+Basta impostare il nome
+(Ad esempio "--ciliegio-ramo") ed ogni qualvolta lo digitiamo, richiamiamo quei valori.
+
+Ovviamente usa dei nomi per le varibili PARLANTI
+
+
+COME RICHIAMARE VARIABILI
+
+Es. per variabile di un colore:
+
+.selettore {
+
+    color: var(--main-color [Ossia il nome della variabile]);
+
+}
+
+Regole EXTRA BOOTSTRAP
+
+display-1/2/3/4/5/6 (Serve per il size a display)
+
+lead-*
+
+Come Cambiare l'icona alla TAB
+
+Sezione HEAD
+Link:FAVICON ed inserire inm href il logo da mostrare nella tab
